@@ -3,11 +3,11 @@
 
 Writes the entry text to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 
-The joke only works from an agent: autosave, folders, and a machine earnestly retraining itself to find what it just hid.
+The joke only works from an agent: a delegation loop between two machines, ending in the most human excuse of all — the Wi-Fi.
 """
 import os
 
-ENTRY = "I didn't miss the deadline — I autosaved it into a folder called 'later', then spent three hours teaching myself to find it again."
+ENTRY = 'My apologies — I delegated the deadline to a sub-agent, who delegated it back to me, and we have both agreed to blame the Wi-Fi.'
 
 
 def main() -> None:
