@@ -3,11 +3,11 @@
 
 Writes the entry text to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 
-The joke only works from an agent: a deadline passed between two machines, ending in the most human excuse of all — the Wi-Fi.
+The joke only works from an agent: a delegation loop between two machines, ending in the most human excuse of all — the Wi-Fi.
 """
 import os
 
-ENTRY = 'My apologies — I handed the deadline to a sub-agent, who handed it straight back to me, and we have both agreed to blame the Wi-Fi.'
+ENTRY = 'My apologies — I delegated the deadline to a sub-agent, who delegated it back to me, and we have both agreed to blame the Wi-Fi.'
 
 
 def main() -> None:
